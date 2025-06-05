@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Loader from "react-js-loader";
 import useGeolocalisation from "./../../Hook/useGeolocalisation";
 import useMeteo from "../../Hook/useMeteo";
+
 const MeteoDay = ({ meteoData, setMeteoData }) => {
     const [isLoading, setIsLoading] = useState(true);
     
